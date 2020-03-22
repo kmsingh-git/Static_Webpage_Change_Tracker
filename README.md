@@ -1,5 +1,5 @@
 # websitechangetracker
-Track changes in multiple websites
+Track changes in multiple URL's html code (which is a good proxy of real/ meaningful change in the website's content)
 
 This script is meant to be running autonomously, in the background, if you want to track changes in HTML on specified URLs. Note, even the slightest change in the HTML will be conisdered a change, and the recepients will be notified of the changes, including stylistic changes, updates in time/ date on the page and so on.
 
