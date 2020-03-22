@@ -8,7 +8,7 @@ For continued use, you'll have to restart the script everytime there's a change,
 This script uses your GMail account to send emails to whomever you want to notify about changes in above mentioned URLs. So before you execute the script, you need to enable "Less secure apps to access this account" option on your GMail account. That is adorably easy and you can find clear instructions on how to do that online.
 
 ## Workflow
-Basically, after putting in the requisite parameters - URL, SENDER_EMAIL, PASSWORD, RECEIVER_ADDRESSES, just run the script in your terminal or cloud instance or wherever (and don't quit it for as long as you want it to track changes, obviously), like so:
+Basically, after putting in the requisite parameters - URL, SENDER_EMAIL (again, this needs to be a Gmail account), PASSWORD, RECEIVER_ADDRESSES, just run the script in your terminal or cloud instance or wherever (and don't quit it for as long as you want it to track changes, obviously), like so:
 
 python main.py
 
