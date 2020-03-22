@@ -3,6 +3,8 @@ Track changes in multiple URL's html code (which is a good proxy of real/ meanin
 
 This script is meant to be running autonomously, in the background, if you want to track changes in HTML on specified URLs. Note, even the slightest change in the HTML will be conisdered a change, and the recepients will be notified of the changes, including stylistic changes, updates in time/ date on the page and so on.
 
+This script uses your GMail account to send emails to whomever you want to notify about changes in above mentioned URLs. So before you execute the script, you need to enable "Less secure apps to access this account" option on your GMail account. That is adorably easy and you can find clear instructions on how to do that online.
+
 ## Workflow
 Basically, after putting in the requisite parameters - URL, SENDER_EMAIL, PASSWORD, RECEIVER_ADDRESSES, just run the script in your terminal or cloud instance or wherever (and don't quit it for as long as you want it to track changes, obviously), like so:
 
