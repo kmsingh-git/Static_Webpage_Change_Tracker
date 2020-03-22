@@ -12,6 +12,6 @@ Note: Running the script will create 2 files for each URL you are tracking. One 
 
 Just ignore these files. You can get rid of those files AFTER you stop the script. If you delete the "base .." file during the running of the script, it will give an error since it won't have a reference to compare the new HTML to.
 
-Finally, some URLs may not like that you're accessing them via scripts. Not sure what happens then.
+Finally, some URLs may not like that you're accessing them via scripts. It's your responsibility to check that you're allowed to access those URLs via this script.
 
 Enjoy
