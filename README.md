@@ -1,5 +1,5 @@
-# websitechangetracker
-Track changes in multiple URL's html code (which is a good proxy of real/ meaningful change in the website's content)
+# Static Webpage Change Tracker
+Track changes in multiple URL's html code, which is a good proxy of real/ meaningful change in the website's content, if it is statically loaded. If the webapp fetches the meaningful data using javascript/ it's lazy loaded, this script probably won't be helpful to you. You'll need to use selenium (which can also be hosted on a cloud service using browser drivers), and I'm working on creating that script next.
 
 This script is meant to be running autonomously, in the background, if you want to track changes in HTML on specified URLs. Note, even the slightest change in the HTML will be conisdered a change, and the recepients will be notified of the changes, including stylistic changes, updates in time/ date on the page and so on.
 
